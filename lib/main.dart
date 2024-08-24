@@ -63,7 +63,7 @@ class _QRViewExampleState extends State<QRViewExample> {
             child: FittedBox(
               fit: BoxFit.scaleDown,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: <Widget>[
                   if (result != null)
                     Text(
